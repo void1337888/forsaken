@@ -4,7 +4,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 
 local Window = Fluent:CreateWindow({
     Title = "bypassed verification BOBO HUB",
-    SubTitle = "by void123",
+    SubTitle = "by void1337",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 350),
     Theme = "Darker",
@@ -28,7 +28,7 @@ local Tabs = {
 		Callback = function(w)
 		if baik == "void1337" then
 			Fluent:Notify({
-    Title = "void137",
+    Title = "void1337",
     Content = "void1337",
     Duration = 8
 })
@@ -47,6 +47,10 @@ loadstring("\32\10\32\32\32\32\108\111\97\100\115\116\114\105\110\103\40\103\97\
         Title = "Copy link void1337 server",
 		Callback = function(w)
 		setclipboard("https://discord.gg/V3ut4nyh28")
+Fluent:Notify({
+    Title = "discord",
+    Content = "copied",
+    Duration = 8
 		end
 	 })
 
